@@ -1,0 +1,45 @@
+{
+  "name": "@aexol/slothking-admin",
+  "version": "0.1.7",
+  "private": false,
+  "description": "Slothking admin",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "grunt",
+    "start": "grunt watch",
+    "prettier": "prettier --write \"src/**/*.{ts,tsx,css}\""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/classnames": "2.2.3",
+    "@types/history": "4.6.2",
+    "@types/json-schema": "^6.0.1",
+    "@types/node": "9.4.6",
+    "@types/react": "16.0.40",
+    "@types/react-dom": "16.0.4",
+    "grunt": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.19",
+    "prettier": "^1.11.1",
+    "typescript": "^2.8.0-dev.20180318"
+  },
+  "dependencies": {
+    "@aexol/slothking-form": "^0.1.8",
+    "@aexol/slothking-syncano": "^0.1.8",
+    "@syncano/client": "^0.8.0",
+    "classnames": "^2.2.5",
+    "js-cookie": "^2.2.0",
+    "moment": "^2.21.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-json-edit": "^0.3.1",
+    "typestyle": "^1.7.2",
+    "unstated": "^2.0.2",
+    "utility-types": "^1.1.0"
+  }
+}
