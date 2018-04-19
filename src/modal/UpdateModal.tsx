@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { Form, FieldDefinition } from '../../outlibs/form';
-import { Modal, ModalHeader, ModalBody,ModalInterface } from '../../outlibs/components';
-import * as styles from './FormComponents.css';
+import { Form, FieldDefinition } from '@aexol/slothking-form';
+import { Modal, ModalHeader, ModalBody,ModalInterface } from '@aexol/slothking-components';
+let styles = require('./FormComponents.css');
 
 export interface UpdateModalInterface extends ModalInterface {
   fields: Array<FieldDefinition>;

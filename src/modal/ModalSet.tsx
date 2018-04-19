@@ -2,10 +2,10 @@ import { AddModal } from './AddModal';
 import { DeleteModal } from './DeleteModal';
 import { UpdateModal } from './UpdateModal';
 import * as React from 'react';
-import { ModalInterface } from '../../outlibs/components';
-import { FieldDefinition } from '../../outlibs/form';
+import { ModalInterface } from '@aexol/slothking-components';
+import { FieldDefinition } from '@aexol/slothking-form';
 
-interface ModalSetInterface extends ModalInterface {
+export interface ModalSetInterface extends ModalInterface {
   fields: Array<FieldDefinition>;
   open: string;
   toggle: Function;

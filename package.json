@@ -11,7 +11,8 @@
   "scripts": {
     "build": "grunt",
     "start": "grunt watch",
-    "prettier": "prettier --write \"src/**/*.{ts,tsx,css}\""
+    "prettier": "prettier --write \"src/**/*.{ts,tsx,css}\"",
+    "sloth-dependencies-update": "npm add @aexol/slothking-components @aexol/slothking-syncano @aexol/slothking-form"
   },
   "license": "MIT",
   "devDependencies": {
@@ -29,7 +30,8 @@
     "typescript": "^2.8.0-dev.20180318"
   },
   "dependencies": {
-    "@aexol/slothking-form": "^0.1.8",
+    "@aexol/slothking-components": "^0.1.8",
+    "@aexol/slothking-form": "^0.1.11",
     "@aexol/slothking-syncano": "^0.1.8",
     "@syncano/client": "^0.8.0",
     "classnames": "^2.2.5",

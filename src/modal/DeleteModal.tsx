@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Modal, ModalHeader, ModalBody,ModalFooter, ModalInterface } from '../../outlibs/components';
+import { Modal, ModalHeader, ModalBody,ModalFooter, ModalInterface } from '@aexol/slothking-components';
 export interface DeleteModalInterface extends ModalInterface {
   onDelete: (id:number) => void;
   warning?: string;

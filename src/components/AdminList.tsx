@@ -1,9 +1,11 @@
 import * as React from 'react';
 import ModalSet from '../modal/ModalSet';
-import * as styles from './List.css';
-import * as multiSelectStyles from './MultiSelect.css';
 import { MultiSelect, filterRules } from '@aexol/slothking-form'
-import { syncanoRelations } from '@aexol/slothking-syncano';
+import { syncanoRelations } from './formMappings';
+
+let styles = require('./List.css')
+let multiSelectStyles = require('./MultiSelect.css')
+
 
 export class AdminList extends React.Component<
   {
