@@ -1,6 +1,6 @@
 {
   "name": "@aexol/slothking-admin",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "private": false,
   "description": "Slothking admin",
   "main": "lib/index.js",
